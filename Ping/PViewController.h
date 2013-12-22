@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PViewController : UIViewController
+#import "SimplePing.h"
 
+@interface PViewController : UIViewController <SimplePingDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *address;
+@property (weak, nonatomic) IBOutlet UIButton *btn;
+@property (weak, nonatomic) IBOutlet UITextView *result;
+
+- (IBAction)ping:(id)sender;
 @end
