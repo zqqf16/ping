@@ -22,6 +22,7 @@
 		F4089F751866DFD800EB126B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4089F541866DFD800EB126B /* UIKit.framework */; };
 		F4089F7D1866DFD800EB126B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4089F7B1866DFD800EB126B /* InfoPlist.strings */; };
 		F4089F7F1866DFD800EB126B /* PingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4089F7E1866DFD800EB126B /* PingTests.m */; };
+		F4089F8A1866E14900EB126B /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = F4089F891866E14900EB126B /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		F4089F7A1866DFD800EB126B /* PingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingTests-Info.plist"; sourceTree = "<group>"; };
 		F4089F7C1866DFD800EB126B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4089F7E1866DFD800EB126B /* PingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingTests.m; sourceTree = "<group>"; };
+		F4089F881866E14900EB126B /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		F4089F891866E14900EB126B /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		F4089F561866DFD800EB126B /* Ping */ = {
 			isa = PBXGroup;
 			children = (
+				F4089F881866E14900EB126B /* SimplePing.h */,
+				F4089F891866E14900EB126B /* SimplePing.m */,
 				F4089F5F1866DFD800EB126B /* PAppDelegate.h */,
 				F4089F601866DFD800EB126B /* PAppDelegate.m */,
 				F4089F621866DFD800EB126B /* Main_iPhone.storyboard */,
@@ -257,6 +262,7 @@
 				F4089F5D1866DFD800EB126B /* main.m in Sources */,
 				F4089F6A1866DFD800EB126B /* PViewController.m in Sources */,
 				F4089F611866DFD800EB126B /* PAppDelegate.m in Sources */,
+				F4089F8A1866E14900EB126B /* SimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
